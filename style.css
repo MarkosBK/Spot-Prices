@@ -1,0 +1,85 @@
+input:focus::-webkit-input-placeholder { color:transparent; }
+.title{
+    background-image: linear-gradient(43deg, #ffffff 0%, rgb(6, 183, 253) 100%);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
+    text-shadow: 0px 0px 10px rgba(255,255,255,0.7);
+    font-family: 'Ranchers', cursive;
+
+}
+body{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*{
+    color: #eeeeee;
+}
+.table-dark{
+    background-color: #303030;
+}
+.table thead th{
+    font-size: 16px;
+    background-image: linear-gradient(43deg, #ffffff 0%, rgb(6, 183, 253) 100%);
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 10px rgba(255,255,255,0.7);
+    border-bottom: 0;
+    font-family: 'Ranchers', cursive;
+}
+tr:hover{
+    transform: scale(1.05);
+    transition: .2s;
+    
+}
+thead tr:hover{
+    transform: scale(1);
+    transition: 0;
+}
+
+.tokenList{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 250px;
+}
+
+.tokenList::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+td, th{
+    width: 100px;
+    word-break: break-all;
+}
+
+
+tr{
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+}
+.main{
+    width: 100%;
+}
+.logoTh{
+    width: 50px;
+}
+#logoThTitle{
+    width: 50px;
+}
+.table{
+    background-color: transparent;
+}
